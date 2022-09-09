@@ -18,10 +18,10 @@ function initMap() {
 
     polygon = new google.maps.Polygon({
         paths: rectCoords,
-        strokeColor: "#396fe3",
+        strokeColor: "#5C06FF",
         strokeOpacity: 0.8,
         strokeWeight: 2,
-        fillColor: "#396fe3",
+        fillColor: "#5C06FF",
         fillOpacity: 0.35
     });
 
