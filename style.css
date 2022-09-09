@@ -2,16 +2,32 @@
  * Always set the map height explicitly to define the size of the div element
  * that contains the map. 
  */
- #map {
-    height: 100%;
-  }
-  
-  /* 
+#map {
+  height: 100%;
+}
+
+/* 
    * Optional: Makes the sample page fill the window. 
    */
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #282c34;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: #5cb3c9;
+}
+
+li {
+  color: whitesmoke;
+}
