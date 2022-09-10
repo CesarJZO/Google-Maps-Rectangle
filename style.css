@@ -10,24 +10,30 @@
    * Optional: Makes the sample page fill the window. 
    */
 html,
-body {
+body { 
+  heigh:1000px;
+  background-image: url("https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2018/03/mario-kart-maps.gif?resize=640%2C320&quality=80&ssl=1");
+  background-repeat:no-repeat;
+  background-position-x:center;
+  background-position-y:center;
+  background-size: 100rem;
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #282c34;
+  background-color: #000713;
 }
 
 h1 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  color: whitesmoke;
+  color: rgb(113, 126, 241);
 }
 
 a {
   font-family: 'Roboto', sans-serif;
-  color: #5cb3c9;
+  color: #808cf8;
 }
 
 li {
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
 }
