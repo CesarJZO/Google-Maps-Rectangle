@@ -8,12 +8,7 @@ function initMap() {
         zoom: 19
     });
 
-    const rectCoords = [
-        { lat: 41.89099, lng: 12.49099 }, // NW
-        { lat: 41.89099, lng: 12.49355 }, // NE
-        { lat: 41.88960, lng: 12.49355 }, // SE
-        { lat: 41.88960, lng: 12.49099 }, // SW
-    ];
+  
 
     polygon = new google.maps.Polygon({
         paths: rectCoords,
