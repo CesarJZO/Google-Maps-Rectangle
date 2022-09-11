@@ -2,7 +2,7 @@
 
 A rectangle placed on top of Rome. Using the Google Maps API.
 
-![Web capture](./Web%20capture_9-9-2022_1879_.jpeg)
+![Web capture](./web_capture.jpeg)
 
 ## Resources
 
