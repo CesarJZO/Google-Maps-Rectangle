@@ -7,11 +7,15 @@
 }
 
 /* 
-   * Optional: Makes the sample page fill the window. 
-   */
+ * Optional: Makes the sample page fill the window. 
+ */
 html,
 body { 
-  background-image: url("https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2018/03/mario-kart-maps.gif?resize=640%2C320&quality=80&ssl=1");
+  height:100px;
+  /*
+  >>>>>>> 5a62a20cdc4a8dc52771cb1bbe350bbed7552b7c
+  */  
+background-image: url("https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2018/03/mario-kart-maps.gif?resize=640%2C320&quality=80&ssl=1");
   background-repeat:no-repeat;
   background-position-x:center;
   background-position-y:center;
@@ -32,9 +36,9 @@ a {
   font-family: 'Roboto', sans-serif;
   width: 100px;
   padding: 20px;
-  border: 2px solid rgb(76, 0, 255);
+  border: 2px solid rgb(44, 1, 146);
   border-radius: 5px;
-  color: rgb(76, 0, 255);
+  color: rgb(44, 1, 146);
 }
 
 li {
