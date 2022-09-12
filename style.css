@@ -1,11 +1,14 @@
 /* 
- * Always set the map height explicitly to define the size of the div element
- * that contains the map. 
+ * Optional: Makes the sample page fill the window. 
  */
-#map {
+html,
+body {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
+<<<<<<< HEAD
 /* 
  * Optional: Makes the sample page fill the window. 
  */
@@ -18,6 +21,15 @@ background-image: url("https://i0.wp.com/codigoespagueti.com/wp-content/uploads/
   background-position-x:center;
   background-position-y:center;
   background-size: 70rem;
+=======
+.main {
+  height: 1000px;
+  background-image: url("https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2018/03/mario-kart-maps.gif?resize=640%2C320&quality=80&ssl=1");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 100% auto;
+>>>>>>> 783fada2f56529e2e9d7b5622c779e1f8a8d51cd
   height: 100%;
   margin: 0;
   padding: 0;
@@ -41,4 +53,12 @@ a {
 
 li {
   color: rgb(76, 0, 255);
+}
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+  height: 100%;
 }
